@@ -9,7 +9,7 @@ interface ProductListProps {
 
 export default function ProductList({ productData }: ProductListProps) {
   return (
-    <ul className="grid grid-cols-3 gap-8">
+    <ul className="mt-6 grid grid-cols-3 gap-8">
       {productData?.map(({
         id, productName, description, image, price,
       }) => (

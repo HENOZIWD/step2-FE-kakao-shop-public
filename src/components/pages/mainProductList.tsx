@@ -4,7 +4,7 @@ import {
 import { useProductList } from '../../hooks/query';
 import MainProductListTemplate from '../templates/mainProductListTemplate';
 
-export default function MainProductListPage() {
+export default function MainProductList() {
   const [pageIndex, setPageIndex] = useState(0);
   const {
     data, fetchNextPage, isFetchingNextPage, hasNextPage,
